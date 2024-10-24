@@ -8,22 +8,24 @@
 
 </p>
 
-This is the official implementation of <em>SoRoLEX</em> from *Towards Reinforcement Learning Controllers for Soft Robots Using Learned Environments*, IEEE Robosoft 2024.
+These are some of the tools used on *Towards Reinforcement Learning Controllers for Soft Robots Using Learned Environments*, IEEE Robosoft 2024.
 
 <em>SoRoLEX</em> is a framework for learning soft robot controllers using reinforcement learning with learned environments. Our implementation is fully built in <a href="https://github.com/google/jax">JAX</a>.
 
 [**Setup**](#setup) | [**Usage**](#usage) | [**Citation**](#citation)
 
+⚠️ **Warning: Coming Soon!** ⚠️
+
 # 🛠️ Setup
 
 ### 📋 Requirements
-[Add requirements information here]
+Do what is needed 
 
 ### 💻 Installation
-[Add installation steps here]
+Have Python and Jax 
 
 # 🎮 Usage
-[Add usage instructions here]
+Just do it?
 
 # 📚 Citation
 If you use any of these tools in your work, it would be really nice if you could please cite:
@@ -33,8 +35,6 @@ If you use any of these tools in your work, it would be really nice if you could
   booktitle={2024 IEEE 7th International Conference on Soft Robotics (RoboSoft)}, 
   title={Reinforcement Learning Controllers for Soft Robots Using Learned Environments}, 
   year={2024},
-  volume={},
-  number={},
   pages={933-939},
   doi={10.1109/RoboSoft60065.2024.10522003},
 }
