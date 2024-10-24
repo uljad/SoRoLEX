@@ -14,21 +14,87 @@ These are some of the tools used on *Towards Reinforcement Learning Controllers 
 
 [**Setup**](#setup) | [**Usage**](#usage) | [**Citation**](#citation)
 
-⚠️ **Warning: Coming Soon!** ⚠️
+
+<h4 align="center"> <strong>⚠️...Under Construction...⚠️</strong> 😢</h4>
 
 # 🛠️ Setup
 
-### 📋 Requirements
-Do what is needed 
+## 📋 Requirements
 
-### 💻 Installation
-Have Python and Jax 
+Requirements can be found in the `lstm/setup/` directory. You can view them [here](lstm/setup/).
 
-# 🎮 Usage
-Just do it?
+<details>
+<summary><strong>Important Dependencies</strong></summary>
 
-# 📚 Citation
-If you use any of these tools in your work, it would be really nice if you could please cite:
+```
+Base Requirements:
+- distrax==0.1.3
+- flax==0.7.2
+- gymnax==0.0.6
+- pre-commit==3.3.3
+- wandb==0.15.8
+
+CPU-specific:
+- jax==0.4.13
+- jaxlib==0.4.13
+
+GPU-specific:
+- jax[cuda12_pip]==0.4.13
+```
+
+Please ensure you have the correct versions installed for your system (CPU or GPU).
+</details>
+
+## 🐳 Running Via Docker
+
+1. **Build the Docker container** with the provided script:
+```
+cd setup/docker && ./build.sh
+```
+2. **Add your [WandB key](https://wandb.ai/authorize)** to the `lstm/setup/docker` folder:
+
+```
+echo <wandb_key> > setup/docker/wandb_key
+
+```
+
+👼 just add a `wandb_key` file without any extensions containing the key from the link above. the `.gitignore` is set up to ignore it and ensure the privacy of your key and your data. 
+
+
+### 🎮 Usage
+
+Place the running script in the relevant directory
+
+```
+./run_docker.sh <gpu_id> python3 train.py <arguments>
+```
+For example, to train the agent on the learned environment using GPU 3, run:
+```
+cd envs
+./run_docker.sh 3 python3 train.py
+```
+To train the lstm on GPU 5
+
+```
+cd lstm
+./run_docker.sh 5 python3 train.py
+```
+**This repo follows the [jax-rl template](https://github.com/EmptyJackson/jax-rl-template/blob/main/README.md?plain=1)**. You can refer to that for more details
+
+## Acknowledgement
+
+This work would have been possible without the following:
+
+🚀 **[Jax Ecosystem](https://github.com/jax-ml/jax_)** ⚡ 
+
+💪 **[Gymnax](https://github.com/RobertTLange/gymnax)** 🏋️‍♂️
+
+🌟  **[PureJaxRL](https://github.com/luchris429/purejaxrl/tree/main)** 🌟
+
+
+## 📚 Citation
+If you use any of these tools, it would be really nice if you could please cite 😍 :
+
 ```
 @INPROCEEDINGS{10522003,
   author={Berdica, Uljad and Jackson, Matthew and Veronese, Niccolò Enrico and Foerster, Jakob and Maiolino Perla},
