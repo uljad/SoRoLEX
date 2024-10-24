@@ -6,6 +6,7 @@ __pycache__
 tryout*
 data_utils/*_Dense.csv
 lstm/setup/docker/wandb_key
+data_utils/data_process.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
