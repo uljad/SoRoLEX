@@ -10,7 +10,7 @@
 
 These are some of the tools used on *Towards Reinforcement Learning Controllers for Soft Robots Using Learned Environments*, IEEE Robosoft 2024.
 
-<em>SoRoLEX</em> is a framework for learning soft robot controllers using reinforcement learning with learned environments. Our implementation is fully built in <a href="https://github.com/google/jax">JAX</a>.
+<em>SoRoLEX</em> is a framework for training and testing soft robot controllers using reinforcement learning with learned environments. Our implementation is fully built in <a href="https://github.com/google/jax">JAX</a>.
 
 [**Setup**](#setup) | [**Usage**](#usage) | [**Citation**](#citation)
 
