@@ -43,6 +43,7 @@ GPU-specific:
 ```
 
 Please ensure you have the correct versions installed for your system (CPU or GPU).
+
 </details>
 
 ## 🐳 Running Via Docker
