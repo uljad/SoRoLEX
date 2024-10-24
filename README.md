@@ -3,6 +3,9 @@
 <p align="center">
     <a href="https://ieeexplore.ieee.org/abstract/document/10522003">
         <img src="https://img.shields.io/badge/IEEE-10522003-00629B.svg" /></a>
+    <a href= "https://github.com/uljad/SoRoLEX/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" /></a>
+
 </p>
 
 This is the official implementation of <em>SoRoLEX</em> from *Towards Reinforcement Learning Controllers for Soft Robots Using Learned Environments*, IEEE Robosoft 2024.
