@@ -5,6 +5,7 @@ envs/__pycache__
 __pycache__
 tryout*
 data_utils/*_Dense.csv
+lstm/setup/docker/wandb_key
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
