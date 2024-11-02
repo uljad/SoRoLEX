@@ -5,6 +5,8 @@
         <img src="https://img.shields.io/badge/IEEE-10522003-00629B.svg" /></a>
     <a href= "https://github.com/uljad/SoRoLEX/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" /></a>
+    <a href= "https://arxiv.org/abs/2410.18519">
+        <img src="https://img.shields.io/badge/arXiv-2410.18519-b31b1b.svg" /></a>
 
 </p>
 
@@ -82,7 +84,7 @@ cd lstm
 ```
 **This repo follows the [jax-rl template](https://github.com/EmptyJackson/jax-rl-template/blob/main/README.md?plain=1)**. You can refer to that for more details
 
-## Acknowledgement
+##  Acknowledgement
 
 This work would have been possible without the following:
 
